@@ -2,21 +2,23 @@ enable-magisk-update = true   # set this to false if you do not want to receive 
 
 [YouTube]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
+patches-source = "YT-Advanced/ReX-patches/tree/spoof"
+integrations-source = "YT-Advanced/ReX-integrations/"
+arch = "arm64-v8a"
 build-mode = "both"
-excluded-patches = "'GmsCore support' 'Theme'"
+included-patches = "'MaterialYou' 'Visual preferences icons'"
+excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube' 'Disable haptic feedback'"
 
 [Music]
 apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube-music/"
+patches-source = "YT-Advanced/ReX-patches/tree/spoof"
+integrations-source = "YT-Advanced/ReX-integrations/"
+arch = "arm64-v8a"
 build-mode = "both"
-
-[Twitter]
-apkmirror-dlurl = "https://apkmirror.com/apk/twitter-inc/twitter/"
-build-mode = "both"
+excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music'"
 
 [Reddit]
 apkmirror-dlurl = "https://apkmirror.com/apk/redditinc/reddit/"
+arch = "arm64-v8a"
 build-mode = "both"
 
-[com.facebook.katana]
-apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/facebook/"
-build-mode = "both"
