@@ -1,6 +1,6 @@
 {
-  "version": "v10.44.0-release.0",
-  "versionCode": 1,
-  "zipUrl": "https://github.com/yannouuuu/rvx-daily-build/releases/download/1/twitter-revanced-magisk-v10.44.0-release.0-all.zip",
+  "version": "v10.45.1-release.0",
+  "versionCode": 2,
+  "zipUrl": "https://github.com/yannouuuu/rvx-daily-build/releases/download/2/twitter-revanced-magisk-v10.45.1-release.0-all.zip",
   "changelog": "https://raw.githubusercontent.com/yannouuuu/rvx-daily-build/update/build.md"
 }
