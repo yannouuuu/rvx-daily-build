@@ -14,7 +14,6 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 build-mode = "both"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-arch = "both"
 
 [Twitter]
 build-mode = "both"
