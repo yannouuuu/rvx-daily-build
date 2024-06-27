@@ -50,6 +50,7 @@ build-mode = "both"
 version = "auto"
 rv-brand = "Piko"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android/"
 included-patches = "'Hide Banner' 'Hide Live Threads' 'Disable chirp font' 'Hide Community Notes' 'Hide FAB' 'Hide FAB Menu Buttons' 'Bring back twitter' 'Custom sharing domain' 'Customize profile tabs' 'Hide promote button' 'Force enable translate' 'Add ability to copy media link' 'Customize Navigation Bar items' 'Hide promote button' 'Force enable translate' 'Delete from database'"
 excluded-patches = "'Dynamic color'"
 
@@ -60,6 +61,7 @@ build-mode = "both"
 version = "auto"
 rv-brand = "Piko"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android/"
 included-patches = "'Hide Banner' 'Hide Live Threads' 'Disable chirp font' 'Hide Community Notes' 'Hide FAB' 'Hide FAB Menu Buttons' 'Bring back twitter' 'Custom sharing domain' 'Customize profile tabs' 'Hide promote button' 'Force enable translate' 'Add ability to copy media link' 'Customize Navigation Bar items' 'Hide promote button' 'Force enable translate' 'Delete from database'"
 
 [X]
@@ -69,6 +71,7 @@ build-mode = "both"
 version = "auto"
 rv-brand = "Piko"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android/"
 included-patches = "'Hide Banner' 'Hide Live Threads' 'Disable chirp font' 'Hide Community Notes' 'Hide FAB' 'Hide FAB Menu Buttons' 'Custom sharing domain' 'Customize profile tabs' 'Hide promote button' 'Force enable translate' 'Add ability to copy media link' 'Customize Navigation Bar items' 'Hide promote button' 'Force enable translate' 'Delete from database'"
 excluded-patches = "'Dynamic color'"
 
@@ -79,6 +82,7 @@ build-mode = "both"
 version = "auto"
 rv-brand = "Piko"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.twitter.android/"
 included-patches = "'Hide Banner' 'Hide Live Threads' 'Disable chirp font' 'Hide Community Notes' 'Hide FAB' 'Hide FAB Menu Buttons' 'Custom sharing domain' 'Customize profile tabs' 'Hide promote button' 'Force enable translate' 'Add ability to copy media link' 'Customize Navigation Bar items' 'Hide promote button' 'Force enable translate' 'Delete from database'"
 
 [TikTok]
@@ -104,7 +108,6 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.ap
 [com.thetransitapp.droid]
 patches-source = "andronedev/revanced-patches"
 build-mode = "both"
-version = "auto"
 rv-brand = "andronedev"
 uptodown-dlurl = "https://transit.fr.uptodown.com/android"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/transit-app-inc/transit-real-time-transit-app/"
