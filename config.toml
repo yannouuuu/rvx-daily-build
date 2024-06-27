@@ -106,6 +106,7 @@ patches-source = "andronedev/revanced-patches"
 build-mode = "both"
 version = "auto"
 rv-brand = "andronedev"
+uptodown-dlurl = "https://transit.fr.uptodown.com/android"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/transit-app-inc/transit-real-time-transit-app/"
 
 [com.thegrizzlylabs.geniusscan.free]
