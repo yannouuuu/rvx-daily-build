@@ -105,14 +105,14 @@ uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 [Twitch]
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
 
-[com.thetransitapp.droid]
+[Transit]
 patches-source = "andronedev/revanced-patches"
 build-mode = "both"
 rv-brand = "andronedev"
 uptodown-dlurl = "https://transit.fr.uptodown.com/android"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/transit-app-inc/transit-real-time-transit-app/"
 
-[com.thegrizzlylabs.geniusscan.free]
+[Geniusscan]
 patches-source = "andronedev/revanced-patches"
 build-mode = "both"
 version = "auto"
