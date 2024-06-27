@@ -1,4 +1,4 @@
-enable-magisk-update = false   # set this to false if you do not want to receive updates for the module in magisk app
+enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
 
 [YouTube]
 build-mode = "both"
@@ -42,6 +42,7 @@ build-mode = "both"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 arch = "both"
+
 
 [Twitter]
 patches-source = "crimera/piko"
