@@ -43,7 +43,6 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.a
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 arch = "both"
 
-
 [Twitter]
 patches-source = "crimera/piko"
 integrations-source = "crimera/revanced-integrations"
@@ -101,3 +100,17 @@ uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 
 [Twitch]
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
+
+[com.thetransitapp.droid]
+patches-source = "andronedev/revanced-patches"
+build-mode = "both"
+version = "auto"
+rv-brand = "andronedev"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/transit-app-inc/transit-real-time-transit-app/"
+
+[com.thegrizzlylabs.geniusscan.free]
+patches-source = "andronedev/revanced-patches"
+build-mode = "both"
+version = "auto"
+rv-brand = "andronedev"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/the-grizzly-labs/genius-scan-pdf-scanner-2/"
