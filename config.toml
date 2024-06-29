@@ -104,15 +104,15 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.ap
 
 [Facebook]
 build-mode = "both"
-version = "latest"
+version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/facebook-2/facebook/"
 uptodown-dlurl = "https://facebook.fr.uptodown.com/android"
 
 [Windyapp]
 build-mode = "both"
 version = "latest"
-uptodown-dlurl = "https://windy.fr.uptodown.com/android"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/windy-weather-world-inc/windy-wind-weather-forecast/"
+uptodown-dlurl = "https://windy.fr.uptodown.com/android"
 
 [MemeGenerator]
 build-mode = "both"
@@ -122,20 +122,20 @@ uptodown-dlurl = "https://meme-generator-free.fr.uptodown.com/android"
 
 [Strava]
 build-mode = "both"
-version = "latest"
+version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/strava-inc/strava-running-and-cycling-gps/"
 uptodown-dlurl = "https://strava.fr.uptodown.com/android"
 
 [Yuka]
 build-mode = "both"
-version = "latest"
+version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/yuka-apps/yuka-food-cosmetic-scan/"
 uptodown-dlurl = "https://yuka.fr.uptodown.com/android"
 
 [Transit]
 patches-source = "andronedev/revanced-patches"
 build-mode = "both"
-version = "latest"
+version = "auto"
 rv-brand = "andronedev"
 uptodown-dlurl = "https://transit.fr.uptodown.com/android"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/transit-app-inc/transit-real-time-transit-app/"
