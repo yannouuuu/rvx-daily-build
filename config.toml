@@ -120,6 +120,12 @@ version = "latest"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/zombodroid/meme-generator-free/"
 uptodown-dlurl = "https://meme-generator-free.fr.uptodown.com/android"
 
+[Strava]
+build-mode = "both"
+version = "latest"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/strava-inc/strava-running-and-cycling-gps/"
+uptodown-dlurl = "https://strava.fr.uptodown.com/android"
+
 [Yuka]
 build-mode = "both"
 version = "latest"
