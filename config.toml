@@ -102,6 +102,12 @@ uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 [Twitch]
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
 
+[Windyapp]
+build-mode = "both"
+version = "auto"
+uptodown-dlurl = "https://windy.fr.uptodown.com/android"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/windy-weather-world-inc/windy-wind-weather-forecast/"
+
 [Transit]
 patches-source = "andronedev/revanced-patches"
 build-mode = "both"
@@ -110,9 +116,9 @@ uptodown-dlurl = "https://transit.fr.uptodown.com/android"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/transit-app-inc/transit-real-time-transit-app/"
 
 [Geniusscan]
+enabled = "false"
 patches-source = "andronedev/revanced-patches"
 build-mode = "both"
 version = "auto"
 rv-brand = "andronedev"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/the-grizzly-labs/genius-scan-pdf-scanner-2/"
-enabled = "false"
