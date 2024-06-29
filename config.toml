@@ -6,7 +6,6 @@ apkmirror-dlurl = "https://apkmirror.com/apk/google-inc/youtube/"
 patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
-arch = "both"
 version = "auto"
 included-patches = "'MaterialYou' 'Visual preferences icons'"
 excluded-patches = "'Custom branding icon for YouTube' 'Custom branding name for YouTube'"
@@ -29,7 +28,6 @@ patches-source = "inotia00/revanced-patches"
 integrations-source = "inotia00/revanced-integrations"
 cli-source = "inotia00/revanced-cli"
 version = "auto"
-arch = "both"
 excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music'"
 
 [Music-Extended]
@@ -41,7 +39,6 @@ rv-brand = "ReVanced Extended"
 build-mode = "both"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-arch = "both"
 
 [Twitter]
 patches-source = "crimera/piko"
