@@ -120,6 +120,12 @@ version = "latest"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/zombodroid/meme-generator-free/"
 uptodown-dlurl = "https://meme-generator-free.fr.uptodown.com/android"
 
+[Yuka]
+build-mode = "both"
+version = "latest"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/yuka-apps/yuka-food-cosmetic-scan/"
+uptodown-dlurl = "https://yuka.fr.uptodown.com/android"
+
 [Transit]
 patches-source = "andronedev/revanced-patches"
 build-mode = "both"
