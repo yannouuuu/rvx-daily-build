@@ -116,8 +116,8 @@ excluded-patches = "'Hide Story Ads'"
 [Windyapp] #maybe?
 build-mode = "both"
 version = "auto"
+arch = "all"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/windy-weather-world-inc/windy-wind-weather-forecast/"
-uptodown-dlurl = "https://windy.fr.uptodown.com/android"
 
 [MemeGenerator] #works
 build-mode = "both"
@@ -143,7 +143,6 @@ build-mode = "both"
 version = "auto"
 rv-brand = "andronedev"
 uptodown-dlurl = "https://transit.fr.uptodown.com/android"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/transit-app-inc/transit-real-time-transit-app/"
 
 [Geniusscan]
 enabled = "false"
