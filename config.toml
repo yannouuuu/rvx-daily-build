@@ -1,6 +1,6 @@
 enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
 
-[Music] #maybe?
+[Music] #works
 enabled = "true"
 build-mode = "both"
 version = "auto"
@@ -13,7 +13,7 @@ uptodown-dlurl = "https://youtube-music.fr.uptodown.com/android"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music/"
 excluded-patches = "'Custom branding icon for YouTube Music' 'Custom branding name for YouTube Music'"
 
-[Music-Extended] #maybe?
+[Music-Extended] #works
 enabled = "true"
 app-name = "Music"
 build-mode = "both"
@@ -105,6 +105,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 
 [Spotify] #works
 build-mode = "both"
+version = "latest"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
 
 [Twitch] #works
@@ -112,17 +113,17 @@ build-mode = "both"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
 uptodown-dlurl = "https://twitch-app.fr.uptodown.com/android"
 
-[Facebook] #maybe?
+[Facebook] #works
 build-mode = "both"
 version = "auto"
 uptodown-dlurl = "https://facebook.fr.uptodown.com/android"
-included-patches = "'Predictive Back Gesture' 'Sproof Wi-Fi' 'Remove Screenshot Restriction'"
-excluded-patches = "'Hide Story Ads'"
+included-patches = "'Predictive back gesture' 'Sproof wi-fi' 'Remove screenshot restriction'"
+excluded-patches = "'Hide story ads'"
 
 [Windyapp] #maybe?
 build-mode = "both"
 version = "auto"
-arch = "all"
+arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/windy-weather-world-inc/windy-wind-weather-forecast/"
 
 [MemeGenerator] #works
