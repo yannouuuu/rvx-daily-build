@@ -4,16 +4,16 @@ YouTube-Extended: 19.23.40
 YouTube: 19.23.40  
 X: 10.47.0-release.0  
 X-material-design: 10.47.0-release.0  
-Spotify: 8.9.52.552  
 Reddit-Extended: 2024.17.0  
-Facebook: 470.0.0.61.82  
-Windyapp: 53.0.1  
-MemeGenerator: 4.6575  
-Strava: 320.12  
+Spotify: 8.9.52.552  
 Twitch: 16.9.1  
+Facebook: 470.0.0.61.82  
+TikTok: 32.5.3  
+MemeGenerator: 4.6575  
+Windyapp: 54.0.1  
+Strava: 320.12  
 Yuka: 4.29  
 Transit: 5.15.19  
-TikTok: 32.5.3  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanced YouTube and YT Music from Play Store  
