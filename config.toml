@@ -113,13 +113,6 @@ build-mode = "both"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
 uptodown-dlurl = "https://twitch-app.fr.uptodown.com/android"
 
-[Facebook] #works
-build-mode = "both"
-version = "auto"
-uptodown-dlurl = "https://facebook.fr.uptodown.com/android"
-included-patches = "'Predictive back gesture' 'Sproof wi-fi' 'Remove screenshot restriction'"
-excluded-patches = "'Hide story ads'"
-
 [Windyapp] #maybe?
 build-mode = "both"
 version = "auto"
