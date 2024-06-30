@@ -1,17 +1,20 @@
+Music (arm-v7a): 7.06.53  
+Music-Extended (arm-v7a): 7.06.53  
+Music (arm64-v8a): 7.06.53  
+Music-Extended (arm64-v8a): 7.06.53  
+YouTube: 19.23.40  
+YouTube-Extended: 19.23.40  
 Twitter: 10.47.0-release.0  
 Twitter-material-design: 10.47.0-release.0  
-YouTube-Extended: 19.23.40  
-YouTube: 19.23.40  
 X: 10.47.0-release.0  
 X-material-design: 10.47.0-release.0  
 Reddit-Extended: 2024.17.0  
 Spotify: 8.9.52.552  
 Twitch: 16.9.1  
 Facebook: 470.0.0.61.82  
-TikTok: 32.5.3  
 MemeGenerator: 4.6575  
-Windyapp: 54.0.1  
 Strava: 320.12  
+TikTok: 32.5.3  
 Yuka: 4.29  
 Transit: 5.15.19  
 
