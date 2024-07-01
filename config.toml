@@ -153,8 +153,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/the-grizzly-labs/genius-scan-pd
 arch = "both"
 
 
-[com.microblink.photomath]
-patches-source = "ReVanced/revanced-patches"
+[Photomath]
 build-mode = "both"
 version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photomath/"
