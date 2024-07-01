@@ -137,6 +137,12 @@ version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/yuka-apps/yuka-food-cosmetic-scan/"
 uptodown-dlurl = "https://yuka.fr.uptodown.com/android"
 
+[Photomath]
+build-mode = "both"
+version = "auto"
+arch = "all"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photomath/"
+
 [Transit] #works
 patches-source = "andronedev/revanced-patches"
 build-mode = "both"
@@ -152,10 +158,5 @@ rv-brand = "andronedev"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/the-grizzly-labs/genius-scan-pdf-scanner-2/"
 arch = "both"
 
-
-[Photomath]
-build-mode = "both"
-version = "auto"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photomath/"
 
 
