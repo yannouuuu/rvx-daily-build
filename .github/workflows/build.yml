@@ -65,14 +65,6 @@ jobs:
         run: |
           echo "DATE=$(date +'%m-%d-%Y')" >> $GITHUB_ENV
 
-      - name: Delete existing release assets
-        uses: mknejp/delete-release-assets@v1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          tag: ${{ steps.next_ver_code.outputs.NEXT_VER_CODE }}
-          fail-if-no-assets: false
-          assets: '*'
-
       - name: Upload modules to release
         uses: svenstaro/upload-release-action@v2
         with:
