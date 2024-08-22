@@ -178,39 +178,24 @@ semver_validate() {
 	[ ${#ac} = 0 ]
 }
 get_patch_last_supported_ver() {
-    local inc_sel exc_sel vs
-    inc_sel=$(list_args "$2" | sed 's/.*/\.name == &/' | paste -sd '~' | sed 's/~/ or /g' || :)
-    exc_sel=$(list_args "$3" | sed 's/.*/\.name != &/' | paste -sd '~' | sed 's/~/ and /g' || :)
-    inc_sel=${inc_sel:-false}
-    if [ "$4" = false ]; then inc_sel="${inc_sel} or .use==true"; fi
+	local inc_sel exc_sel vs
+	inc_sel=$(list_args "$2" | sed 's/.*/\.name == &/' | paste -sd '~' | sed 's/~/ or /g' || :)
+	exc_sel=$(list_args "$3" | sed 's/.*/\.name != &/' | paste -sd '~' | sed 's/~/ and /g' || :)
+	inc_sel=${inc_sel:-false}
 
-    # Step-by-step debugging
-    echo "Step 1: Verifying base JSON"
-    if ! jq -e -r '.[]' "$5"; then
-        abort "Error in base JSON"
-    fi
+    echo "Package name: $pkg_name"
+    echo "JSON content:"
+    jq '.' "$ptjs"
 
-    echo "Step 2: Verifying compatible packages selection"
-    if ! jq -e -r ".[] | select(.compatiblePackages // [] | .[] | .name==\"${1}\")" "$5"; then
-        abort "Error in compatible packages selection"
-    fi
-
-    echo "Step 3: Verifying inc_sel selection"
-    if ! jq -e -r ".[] | select(.compatiblePackages // [] | .[] | .name==\"${1}\") | select(${inc_sel})" "$5"; then
-        abort "Error in inc_sel selection"
-    fi
-
-    echo "Step 4: Verifying exc_sel selection"
-    if ! jq -e -r ".[] | select(.compatiblePackages // [] | .[] | .name==\"${1}\") | select(${inc_sel}) | select(${exc_sel:-true})" "$5"; then
-        abort "Error in exc_sel selection"
-    fi
-
-    echo "Step 5: Verifying version extraction"
-    if ! vs=$(jq -e -r ".[] | select(.compatiblePackages // [] | .[] | .name==\"${1}\") | select(${inc_sel}) | select(${exc_sel:-true}) | .compatiblePackages[].versions // []" "$5"); then
-        abort "Error in version extraction"
-    fi
-
-    tr -d ' ,\t[]"' <<<"$vs" | sort -u | grep -v '^$' | get_largest_ver || :
+	if [ "$4" = false ]; then inc_sel="${inc_sel} or .use==true"; fi
+	if ! vs=$(jq -e -r ".[]
+			| select(.compatiblePackages // [] | .[] | .name==\"${1}\")
+			| select(${inc_sel})
+			| select(${exc_sel:-true})
+			| .compatiblePackages[].versions // []" "$5"); then
+		abort "error in jq query"
+	fi
+	tr -d ' ,\t[]"' <<<"$vs" | sort -u | grep -v '^$' | get_largest_ver || :
 }
 
 isoneof() {
