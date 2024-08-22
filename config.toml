@@ -80,25 +80,13 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 [Pixiv] #works
 build-mode = "both"
 version = "auto"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/pixiv-inc/pixiv/"
 uptodown-dlurl = "https://pixiv.en.uptodown.com/android"
-
-[Spotify] #works
-build-mode = "apk"
-version = "auto"
-uptodown-dlurl = "https://spotify.en.uptodown.com/android"
-
-[Spotify-Lite] #works
-build-mode = "both"
-version = "auto"
-uptodown-dlurl = "https://spotify-lite.en.uptodown.com/android"
 
 [Twitch] #works
 build-mode = "both"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
 uptodown-dlurl = "https://twitch-app.fr.uptodown.com/android"
-
-[Windyapp] #maybe?
-apkmirror-dlurl = "https://www.apkmirror.com/apk/windy-weather-world-inc/windy-wind-weather-forecast/"
 
 [MemeGenerator] #works
 build-mode = "both"
