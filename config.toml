@@ -16,9 +16,8 @@ arch = "both"
 
 [Music-Extended] #works
 app-name = "Music"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
+patches-source = "anddea/revanced-patches"
+integrations-source = "anddea/revanced-integrations"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
@@ -27,9 +26,8 @@ arch = "both"
 
 [YouTube-Extended] #works
 app-name = "YouTube"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
+patches-source = "anddea/revanced-patches"
+integrations-source = "anddea/revanced-integrations"
 rv-brand = "ReVanced Extended"
 build-mode = "both"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
@@ -42,7 +40,7 @@ build-mode = "both"
 rv-brand = "Piko"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
-included-patches = "'Hide Banner' 'Hide Live Threads' 'Disable chirp font' 'Hide Community Notes' 'Hide FAB' 'Hide FAB Menu Buttons' 'Bring back twitter' 'Custom sharing domain' 'Customize profile tabs' 'Hide promote button' 'Force enable translate' 'Add ability to copy media link' 'Customize Navigation Bar items' 'Hide promote button' 'Force enable translate' 'Delete from database'"
+included-patches = "'Bring back twitter'"
 excluded-patches = "'Dynamic color'"
 
 [Twitter-material-design] #works
@@ -52,7 +50,7 @@ build-mode = "both"
 rv-brand = "Piko"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
-included-patches = "'Hide Banner' 'Hide Live Threads' 'Disable chirp font' 'Hide Community Notes' 'Hide FAB' 'Hide FAB Menu Buttons' 'Bring back twitter' 'Custom sharing domain' 'Customize profile tabs' 'Hide promote button' 'Force enable translate' 'Add ability to copy media link' 'Customize Navigation Bar items' 'Hide promote button' 'Force enable translate' 'Delete from database'"
+included-patches = "'Bring back twitter'"
 
 [X] #works
 patches-source = "crimera/piko"
@@ -61,7 +59,6 @@ build-mode = "both"
 rv-brand = "Piko"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
-included-patches = "'Hide Banner' 'Hide Live Threads' 'Disable chirp font' 'Hide Community Notes' 'Hide FAB' 'Hide FAB Menu Buttons' 'Custom sharing domain' 'Customize profile tabs' 'Hide promote button' 'Force enable translate' 'Add ability to copy media link' 'Customize Navigation Bar items' 'Hide promote button' 'Force enable translate' 'Delete from database'"
 excluded-patches = "'Dynamic color'"
 
 [X-material-design] #works
@@ -71,7 +68,6 @@ build-mode = "both"
 rv-brand = "Piko"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
-included-patches = "'Hide Banner' 'Hide Live Threads' 'Disable chirp font' 'Hide Community Notes' 'Hide FAB' 'Hide FAB Menu Buttons' 'Custom sharing domain' 'Customize profile tabs' 'Hide promote button' 'Force enable translate' 'Add ability to copy media link' 'Customize Navigation Bar items' 'Hide promote button' 'Force enable translate' 'Delete from database'"
 
 [TikTok] #works
 build-mode = "both"
@@ -81,9 +77,8 @@ included-patches = "'SIM spoof'"
 [Reddit-Extended] #maybe?
 build-mode = "both"
 version = "latest"
-patches-source = "inotia00/revanced-patches"
-integrations-source = "inotia00/revanced-integrations"
-cli-source = "inotia00/revanced-cli"
+patches-source = "anddea/revanced-patches"
+integrations-source = "anddea/revanced-integrations"
 rv-brand = "ReVanced Extended"
 uptodown-dlurl = "https://reddit-official-app.fr.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
@@ -143,6 +138,3 @@ build-mode = "both"
 rv-brand = "andronedev"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/the-grizzly-labs/genius-scan-pdf-scanner-2/"
 arch = "both"
-
-
-
