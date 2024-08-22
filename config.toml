@@ -36,6 +36,7 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 build-mode = "both"
 version = "latest"
 uptodown-dlurl = "https://spotify.en.uptodown.com/android"
+arch = "arm64-v8a"
 
 [Twitch] #works
 build-mode = "both"
@@ -45,8 +46,8 @@ uptodown-dlurl = "https://twitch-app.fr.uptodown.com/android"
 [Windyapp] #maybe?
 build-mode = "both"
 version = "auto"
-arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/windy-weather-world-inc/windy-wind-weather-forecast/"
+arch = "arm64-v8a"
 
 [MemeGenerator] #works
 build-mode = "both"
