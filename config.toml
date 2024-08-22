@@ -79,10 +79,11 @@ arch = "all"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photomath/"
 
 [Transit] #works
-build-mode = "both"
 patches-source = "andronedev/revanced-patches"
 version = "auto"
+arch = "arm64-v8a"
 rv-brand = "andronedev"
+build-mode = "apk"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/transit-app-inc/"
 
 [Geniusscan]
