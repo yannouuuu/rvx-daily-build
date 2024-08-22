@@ -70,22 +70,35 @@ build-mode = "both"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
 included-patches = "'SIM spoof'"
 
-[Reddit-Extended] #maybe?
+[Reddit-Extended] #works
 build-mode = "both"
 rv-brand = "ReVanced Extended"
 uptodown-dlurl = "https://reddit-official-app.fr.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.reddit.frontpage"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/redditinc/reddit/"
 
-[Spotify] #works
+[Pixiv] #works
 build-mode = "both"
-uptodown-dlurl = "https://spotify.fr.uptodown.com/android"
-arch = "arm64-v8a"
+version = "auto"
+uptodown-dlurl = "https://pixiv.en.uptodown.com/android"
+
+[Spotify] #works
+build-mode = "apk"
+version = "auto"
+uptodown-dlurl = "https://spotify.en.uptodown.com/android"
+
+[Spotify-Lite] #works
+build-mode = "both"
+version = "auto"
+uptodown-dlurl = "https://spotify-lite.en.uptodown.com/android"
 
 [Twitch] #works
 build-mode = "both"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/tv.twitch.android.app"
 uptodown-dlurl = "https://twitch-app.fr.uptodown.com/android"
+
+[Windyapp] #maybe?
+apkmirror-dlurl = "https://www.apkmirror.com/apk/windy-weather-world-inc/windy-wind-weather-forecast/"
 
 [MemeGenerator] #works
 build-mode = "both"
@@ -104,15 +117,15 @@ version = "auto"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/yuka-apps/yuka-food-cosmetic-scan/"
 uptodown-dlurl = "https://yuka.fr.uptodown.com/android"
 
-[Photomath]
+[Photomath] #works
 build-mode = "both"
 version = "auto"
 arch = "all"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photomath/"
 
-[Geniusscan]
-build-mode = "both"
+[Geniusscan] #works
 enabled = "false"
+build-mode = "both"
 patches-source = "andronedev/revanced-patches"
 rv-brand = "andronedev"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/the-grizzly-labs/genius-scan-pdf-scanner-2/"
