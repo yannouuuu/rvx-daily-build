@@ -17,42 +17,6 @@ build-mode = "both"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.youtube"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 
-[Twitter] #works
-patches-source = "crimera/piko"
-integrations-source = "crimera/revanced-integrations"
-build-mode = "both"
-rv-brand = "Piko"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
-included-patches = "'Bring back twitter'"
-excluded-patches = "'Dynamic color'"
-
-[Twitter-material-design] #works
-patches-source = "crimera/piko"
-integrations-source = "crimera/revanced-integrations"
-build-mode = "both"
-rv-brand = "Piko"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
-included-patches = "'Bring back twitter'"
-
-[X] #works
-patches-source = "crimera/piko"
-integrations-source = "crimera/revanced-integrations"
-build-mode = "both"
-rv-brand = "Piko"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
-excluded-patches = "'Dynamic color'"
-
-[X-material-design] #works
-patches-source = "crimera/piko"
-integrations-source = "crimera/revanced-integrations"
-build-mode = "both"
-rv-brand = "Piko"
-archive-dlurl = "https://archive.org/download/jhc-apks/apks/"
-apkmirror-dlurl = "https://www.apkmirror.com/apk/x-corp/twitter/"
-
 [TikTok] #works
 build-mode = "both"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
