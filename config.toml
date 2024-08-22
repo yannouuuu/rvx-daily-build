@@ -57,7 +57,6 @@ uptodown-dlurl = "https://twitch-app.fr.uptodown.com/android"
 
 [MemeGenerator] #works
 build-mode = "both"
-version = "latest"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/zombodroid/meme-generator-free/"
 uptodown-dlurl = "https://meme-generator-free.fr.uptodown.com/android"
 
