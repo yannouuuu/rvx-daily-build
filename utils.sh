@@ -182,11 +182,6 @@ get_patch_last_supported_ver() {
 	inc_sel=$(list_args "$2" | sed 's/.*/\.name == &/' | paste -sd '~' | sed 's/~/ or /g' || :)
 	exc_sel=$(list_args "$3" | sed 's/.*/\.name != &/' | paste -sd '~' | sed 's/~/ and /g' || :)
 	inc_sel=${inc_sel:-false}
-
-    echo "Package name: $pkg_name"
-    echo "JSON content:"
-    jq '.' "$ptjs"
-
 	if [ "$4" = false ]; then inc_sel="${inc_sel} or .use==true"; fi
 	if ! vs=$(jq -e -r ".[]
 			| select(.compatiblePackages // [] | .[] | .name==\"${1}\")
