@@ -31,6 +31,40 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.a
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
 arch = "both"
 
+[twitter-material-design]
+build-mode = "apk"
+patches-source = "crimera/piko"
+integrations-source = "crimera/revanced-integrations"
+rv-brand = "Piko"
+archive-dlurl = "https://ia800503.us.archive.org/7/items/jhc-apks/apks/com.twitter.android/"
+included-patches = "'Hide Banner' 'Hide Live Threads' 'Disable chirp font' 'Hide Community Notes' 'Hide FAB' 'Hide FAB Menu Buttons' 'Bring back twitter' 'Custom sharing domain' 'Customize profile tabs' 'Hide promote button' 'Force enable translate' 'Add ability to copy media link' 'Customize Navigation Bar items' 'Hide promote button' 'Force enable translate' 'Delete from database'"
+
+[twitter]
+build-mode = "apk"
+patches-source = "crimera/piko"
+integrations-source = "crimera/revanced-integrations"
+rv-brand = "Piko"
+archive-dlurl = "https://ia800503.us.archive.org/7/items/jhc-apks/apks/com.twitter.android/"
+included-patches = "'Hide Banner' 'Hide Live Threads' 'Disable chirp font' 'Hide Community Notes' 'Hide FAB' 'Hide FAB Menu Buttons' 'Bring back twitter' 'Custom sharing domain' 'Customize profile tabs' 'Hide promote button' 'Force enable translate' 'Add ability to copy media link' 'Customize Navigation Bar items' 'Hide promote button' 'Force enable translate' 'Delete from database'"
+excluded-patches = "'Dynamic color'"
+
+[x-material-design]
+build-mode = "apk"
+patches-source = "crimera/piko"
+integrations-source = "crimera/revanced-integrations"
+rv-brand = "Piko"
+archive-dlurl = "https://ia800503.us.archive.org/7/items/jhc-apks/apks/com.twitter.android/"
+included-patches = "'Hide Banner' 'Hide Live Threads' 'Disable chirp font' 'Hide Community Notes' 'Hide FAB' 'Hide FAB Menu Buttons' 'Custom sharing domain' 'Customize profile tabs' 'Hide promote button' 'Force enable translate' 'Add ability to copy media link' 'Customize Navigation Bar items' 'Hide promote button' 'Force enable translate' 'Delete from database'"
+
+[x]
+build-mode = "apk"
+patches-source = "crimera/piko"
+integrations-source = "crimera/revanced-integrations"
+rv-brand = "Piko"
+archive-dlurl = "https://ia800503.us.archive.org/7/items/jhc-apks/apks/com.twitter.android/"
+included-patches = "'Hide Banner' 'Hide Live Threads' 'Disable chirp font' 'Hide Community Notes' 'Hide FAB' 'Hide FAB Menu Buttons' 'Custom sharing domain' 'Customize profile tabs' 'Hide promote button' 'Force enable translate' 'Add ability to copy media link' 'Customize Navigation Bar items' 'Hide promote button' 'Force enable translate' 'Delete from database'"
+excluded-patches = "'Dynamic color'"
+
 [TikTok] #works
 build-mode = "both"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.zhiliaoapp.musically"
