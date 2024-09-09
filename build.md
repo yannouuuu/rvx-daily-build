@@ -1,7 +1,7 @@
+twitter-material-design: 10.57.0-release.0  
+x-material-design: 10.57.0-release.0  
 twitter: 10.57.0-release.0  
 x: 10.57.0-release.0  
-x-material-design: 10.57.0-release.0  
-twitter-material-design: 10.57.0-release.0  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
 Use [zygisk-detach](https://github.com/j-hc/zygisk-detach) to detach root ReVanced YouTube and YT Music from Play Store  
