@@ -1,5 +1,5 @@
-twitter: 10.58.0-release.0  
 twitter-material-design: 10.58.0-release.0  
+twitter: 10.58.0-release.0  
 x: 10.58.0-release.0  
 x-material-design: 10.58.0-release.0  
 
