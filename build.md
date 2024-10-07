@@ -1,6 +1,6 @@
 twitter-material-design: 10.61.1-release.0  
-twitter: 10.61.1-release.0  
 x: 10.61.1-release.0  
+twitter: 10.61.1-release.0  
 x-material-design: 10.61.1-release.0  
 
 Install [Microg](https://github.com/ReVanced/GmsCore/releases) for non-root YouTube and YT Music APKs  
