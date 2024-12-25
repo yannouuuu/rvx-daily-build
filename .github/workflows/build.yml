@@ -59,7 +59,7 @@ jobs:
           cat build.md >> "$GITHUB_OUTPUT"
           echo "${DELIM}" >> "$GITHUB_OUTPUT"
           cp -f build.md build.tmp
-          
+
       - name: Get current date
         id: get_date
         run: |

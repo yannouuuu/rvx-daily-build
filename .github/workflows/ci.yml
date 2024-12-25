@@ -17,6 +17,11 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Make scripts executable
+        run: |
+          chmod +x build.sh
+          chmod +x utils.sh
+
       - name: Should build?
         id: should_build
         shell: bash
