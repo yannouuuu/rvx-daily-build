@@ -1,13 +1,11 @@
 name: Build Modules
 on:
-  workflow_call:
-    inputs:
-      from_ci:
-        type: boolean
-        required: false
-        default: true
-
   workflow_dispatch:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: "30 16 * * *"
 
 jobs:
   run:
@@ -24,6 +22,12 @@ jobs:
         with:
           fetch-depth: 0
           submodules: true
+
+      - name: Clear older runs
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh run list -L400 --json databaseId -q '.[].databaseId' | tail -n+10 | xargs -IID gh api "repos/$GITHUB_REPOSITORY/actions/runs/ID" -X DELETE || :
 
       - name: Update config
         if: ${{ inputs.from_ci }}

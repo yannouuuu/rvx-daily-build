@@ -20,7 +20,6 @@ apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube"
 build-mode = "both"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-arch = "both"
 
 [Music-Extended]
 app-name = "Music"
@@ -30,7 +29,6 @@ rv-brand = "ReVanced Extended"
 build-mode = "both"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/youtube-music"
-arch = "both"
 
 [twitter-material-design]
 build-mode = "apk"
