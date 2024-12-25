@@ -1,4 +1,5 @@
-enable-magisk-update = true   # set this to false if you do not want to receive updates for the module in magisk app
+enable-magisk-update = true # set this to false if you do not want to receive updates for the module in magisk app
+parallel-jobs = 1 
 
 [YouTube] #works
 build-mode = "both"
@@ -118,4 +119,3 @@ patches-source = "andronedev/revanced-patches"
 rv-brand = "andronedev"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/the-grizzly-labs/genius-scan-pdf-scanner-2/"
 arch = "both"
-
